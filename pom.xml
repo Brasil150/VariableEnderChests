@@ -123,7 +123,8 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot</artifactId>
             <version>1.21.3-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <systemPath>${basedir}/lib/spigot-1.21.3-R0.1-SNAPSHOT.jar</systemPath>
+            <scope>system</scope>
         </dependency>
         <dependency>
             <groupId>org.bstats</groupId>
